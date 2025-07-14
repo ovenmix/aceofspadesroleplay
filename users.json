@@ -1,0 +1,41 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "email": null,
+      "username": "ovenmix",
+      "password": null,
+      "roles": [
+        "User",
+        "Staff",
+        "Admin",
+        "Server Director",
+        "KCSO Member",
+        "KCSO Command"
+      ],
+      "discordId": "615403860269203456",
+      "discordUsername": "ovenmix",
+      "discordAvatar": "https://cdn.discordapp.com/avatars/615403860269203456/f831327fba451b9b127c1e1f3aa611fb.png?size=128",
+      "createdAt": "2025-07-13T18:52:48.430Z",
+      "lastLogin": "2025-07-13T20:37:26.090Z",
+      "status": "active"
+    },
+    {
+      "id": 2,
+      "email": "mauvehub.ca@gmail.com",
+      "username": "mauve",
+      "password": "$2b$12$94vxFTDHVW5TuL3ZSKcVh.YpQ4V4PAJQ7EAal8k2l59ubC8fElEc2",
+      "roles": [
+        "User"
+      ],
+      "discordId": null,
+      "discordUsername": null,
+      "discordAvatar": null,
+      "createdAt": "2025-07-13T20:36:57.233Z",
+      "lastLogin": "2025-07-13T20:37:38.941Z",
+      "status": "active"
+    }
+  ],
+  "lastId": 3,
+  "lastUpdated": "2025-07-13T20:37:38.941Z"
+}

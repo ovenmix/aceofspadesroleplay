@@ -1,0 +1,66 @@
+{
+    "name": "los-santos-county-website",
+    "version": "1.0.0",
+    "description": "FiveM Roleplay Server Website with Discord OAuth2",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js \"react-scripts start",
+        "dev": "nodemon server.js \"npm run server\" \"npm run bot\" \"npm start\"",
+        "setup": "node setup.js",
+
+        "build": "react-scripts build",
+        "test": "react-scripts test",
+        "eject": "react-scripts eject",
+        "server": "cd backend && node server.js",
+        "bot": "cd backend && node discord-bot.js"
+    },
+    "dependencies": {
+        "axios": "^1.6.0",
+        "bcrypt": "^6.0.0",
+        "dotenv": "^16.3.1",
+        "express": "^4.18.2",
+        "express-session": "^1.17.3",
+        
+        "cors": "^2.8.5",
+        "discord.js": "^14.11.0",
+        "jsonwebtoken": "^9.0.0",
+        "lucide-react": "^0.263.1",
+        "passport": "^0.6.0",
+        "passport-discord": "^0.1.4",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0",
+        "react-scripts": "5.0.1",
+        "sqlite3": "^5.1.6"
+    },
+    "devDependencies": {
+        "nodemon": "^3.0.2",
+        "autoprefixer": "^10.4.21",
+        "concurrently": "^8.2.0",
+        "postcss": "^8.5.6",
+        "tailwindcss": "^3.4.17"
+    },
+    "keywords": [
+        "fivem",
+        "discord",
+        "oauth2",
+        "roleplay",
+        "website"
+    ],
+    "author": "Your Name",
+    "license": "MIT",
+    "engines": {
+        "node": ">=16.0.0"
+    },
+    "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
